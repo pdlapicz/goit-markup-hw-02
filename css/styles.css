@@ -1,9 +1,15 @@
 :root {
+  --background-page-color: #e5e5e5;
+  --brand-color-blue: #2196f3;
+  --brand-color-black: #212121;
+  --brand-color-grey: #757575;
+  --brand-color-white: #ffffff;
+  --brand-color-background: #2f303a;
+  --brand-color-background-border: #eeeeee;
+  --brand-color-background-team: #f5f4fa;
 }
 
 body {
-  /* font-family: 'Raleway', sans-serif; */
-  font-family: 'Roboto', sans-serif;
-  color: #212121;
-  background-color: #777777;
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  background-color: var(--background-page-color);
 }
