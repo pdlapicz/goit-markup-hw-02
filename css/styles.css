@@ -1,7 +1,8 @@
 :root {
   --background-page-color: #e5e5e5;
-  --brand-color-blue: #2196f3;
-  --brand-color-light-black: #212121;
+  --active-color: #2196f3;
+  --font-color: #212121;
+  --color-logo2: #000000;
   --brand-color-grey: #757575;
   --brand-color-white: #ffffff;
   --brand-color-black: #000000;
@@ -13,13 +14,35 @@
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   background-color: var(--background-page-color);
-  color: var(--brand-color-light-black);
+  color: var(--font-color);
 }
 
 .blue-logo {
-  color: var(--brand-color-blue);
+  color: var(--active-color);
 }
 
 .logo {
+  font-size: 26px;
+  text-decoration: none;
   font-weight: 700;
+  color: var(--color-logo2);
+}
+
+.navigation {
+  text-decoration: none;
+  color: var(--font-color);
+  font-weight: 500;
+  font-size: 15px;
+}
+.navigation:hover,
+.navigation:focus {
+  color: var(--active-color);
+}
+
+.contact-header {
+}
+
+.contact-header:hover,
+.contact-header:focus {
+  color: var(--active-color);
 }
