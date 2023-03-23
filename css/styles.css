@@ -13,19 +13,7 @@
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   background-color: var(--background-page-color);
-}
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: var(--brand-color-black);
-}
-/* kolor czcionek jest taki sam dla moich nav */
-nav{
   color: var(--brand-color-light-black);
-  font-weight: 500;
 }
 
 .blue-logo {
