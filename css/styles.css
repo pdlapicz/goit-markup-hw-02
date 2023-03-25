@@ -9,6 +9,7 @@
   --font-color-footer: #ffffff;
   --font-color-footer-with-alpha: #ffffff99;
   --font-color-contact-header: #757575;
+  --font-color-paragraph: #757575;
   --background-color-section: #2f303a;
   --background-color-border: #eeeeee;
   --background-color-team: #f5f4fa;
@@ -90,6 +91,7 @@ body {
 
 /* HEADER I FOOTER ZAKONCZONE */
 /* STRONA INDEX */
+/* SEKCJA HERO */
 .hero {
   background-color: var(--background-color-section);
 }
@@ -105,14 +107,56 @@ body {
   font-weight: 700;
   font-size: 16px;
   text-align: center;
-  color: var(--font-color);
+  color: var(--font-color-dark-background);
   /* button ma domyslne color: #000000 */
-  background-color: var(--background-color-btn-unactive);
+  background-color: var(--active-color);
 }
 
-.btn-order:hover,
-.btn-order:focus {
-  background-color: var(--active-color);
-  color: var(--font-color-dark-background);
+/* SEKCJA TEKSTOWA */
+.text-part-list {
+  list-style: none;
 }
+
+.text-part-list-item h3 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.text-part-list-item p {
+  line-height: 24px;
+  color: var(--font-color-paragraph);
+}
+
+/* SEKCJA CZYM SIE ZAJMUJEMY */
+.what-do-header,
+.team-header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.what-do-list {
+  list-style: none;
+}
+
+.team-list {
+  list-style: none;
+}
+
+.team-name,
+.team-profession {
+  text-align: center;
+  /* jeszcze nie dziala */
+  font-size: 16px;
+}
+
+.team-name {
+  font-weight: 700;
+}
+
+.team-profession {
+  color: var(--font-color-paragraph);
+}
+/* SEKCJA TEAM */
+
 /* STRONA PORTFOLIO */
