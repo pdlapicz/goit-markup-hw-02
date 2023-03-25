@@ -1,48 +1,87 @@
 :root {
-  --background-page-color: #e5e5e5;
+  --background-color-main: #ffffff;
   --active-color: #2196f3;
   --font-color: #212121;
-  --color-logo2: #000000;
-  --brand-color-grey: #757575;
-  --brand-color-white: #ffffff;
-  --brand-color-black: #000000;
-  --brand-color-background: #2f303a;
-  --brand-color-background-border: #eeeeee;
-  --brand-color-background-team: #f5f4fa;
+  --font-color-logo: #2196f3;
+  --font-color-logo-header: #000000;
+  --font-color-logo-footer: #ffffff;
+  --font-color-footer: #ffffff;
+  --font-color-footer-with-alpha: #ffffff99;
+  --font-color-contact-header: #757575;
+  --background-color-section: #2f303a;
+  --background-color-border: #eeeeee;
+  --background-color-team: #f5f4fa;
 }
 
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  background-color: var(--background-page-color);
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color-main);
   color: var(--font-color);
-}
-
-.blue-logo {
-  color: var(--active-color);
+  font-size: 14px;
 }
 
 .logo {
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   text-decoration: none;
   font-weight: 700;
-  color: var(--color-logo2);
+  color: var(--font-color-logo);
+}
+
+.logo-header {
+  color: var(--font-color-logo-header);
+}
+
+.logo-footer {
+  color: var(--font-color-logo-footer);
 }
 
 .navigation {
+  list-style: none;
+}
+
+.navigation-link {
   text-decoration: none;
   color: var(--font-color);
   font-weight: 500;
   font-size: 15px;
 }
-.navigation:hover,
-.navigation:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: var(--active-color);
 }
 
-.contact-header {
+.contact-header-item {
+  text-decoration: none;
+  color: var(--font-color-contact-header);
+  font-weight: 500;
+  font-size: 14px;
 }
 
-.contact-header:hover,
-.contact-header:focus {
+.contact-header-item:hover,
+.contact-header-item:focus {
+  color: var(--active-color);
+}
+
+.footer {
+  background-color: var(--background-color-section);
+}
+
+.contact-footer-address {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--font-color-footer);
+}
+
+.contact-footer-link {
+  color: var(--font-color-footer-with-alpha);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contact-footer-address:hover,
+.contact-footer-address:focus,
+.contact-footer-link:hover,
+.contact-footer-link:focus {
   color: var(--active-color);
 }
