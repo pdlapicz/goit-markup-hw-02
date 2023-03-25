@@ -5,12 +5,14 @@
   --font-color-logo: #2196f3;
   --font-color-logo-header: #000000;
   --font-color-logo-footer: #ffffff;
+  --font-color-dark-background: #ffffff;
   --font-color-footer: #ffffff;
   --font-color-footer-with-alpha: #ffffff99;
   --font-color-contact-header: #757575;
   --background-color-section: #2f303a;
   --background-color-border: #eeeeee;
   --background-color-team: #f5f4fa;
+  --background-color-btn-unactive: #f5f4fa;
 }
 
 body {
@@ -85,3 +87,32 @@ body {
 .contact-footer-link:focus {
   color: var(--active-color);
 }
+
+/* HEADER I FOOTER ZAKONCZONE */
+/* STRONA INDEX */
+.hero {
+  background-color: var(--background-color-section);
+}
+.title-side {
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  color: var(--font-color-dark-background);
+}
+
+.btn-order {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: var(--font-color);
+  /* button ma domyslne color: #000000 */
+  background-color: var(--background-color-btn-unactive);
+}
+
+.btn-order:hover,
+.btn-order:focus {
+  background-color: var(--active-color);
+  color: var(--font-color-dark-background);
+}
+/* STRONA PORTFOLIO */
