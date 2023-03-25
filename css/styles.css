@@ -103,6 +103,7 @@ body {
 }
 
 .btn-order {
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -139,6 +140,11 @@ body {
   list-style: none;
 }
 
+/* SEKCJA TEAM */
+.team {
+  background-color: var(--background-color-team);
+}
+
 .team-list {
   list-style: none;
 }
@@ -157,6 +163,29 @@ body {
 .team-profession {
   color: var(--font-color-paragraph);
 }
-/* SEKCJA TEAM */
 
 /* STRONA PORTFOLIO */
+/* przyciski do filtrowania */
+.filter-list {
+  list-style: none;
+}
+
+.btn-filter {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color-btn-unactive);
+  color: var(--font-color);
+  /* bo domyslnie ma color:#ffffff */
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+  background-color: var(--active-color);
+  color: var(--font-color-dark-background);
+}
+/* galeria */
+.gallery-list {
+  list-style: none;
+}
+
+
