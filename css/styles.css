@@ -18,9 +18,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--background-color-main);
   color: var(--font-color);
-  font-size: 14px;
 }
 
 .logo {
@@ -82,8 +80,6 @@ body {
   font-style: normal;
 }
 
-.contact-footer-address:hover,
-.contact-footer-address:focus,
 .contact-footer-link:hover,
 .contact-footer-link:focus {
   color: var(--active-color);
